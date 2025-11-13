@@ -9,7 +9,8 @@
     --titulo: "Pirata One", system-ui;
     --texto: "MedievalSharp", cursive;
 }
-body{
+
+body {
     background-color: var(--ultra-violeta);
     font-family: var(--texto);
     margin: 0;
@@ -18,16 +19,55 @@ body{
     align-items: center;
     justify-content: center;
 }
-main{
+
+main {
     margin-top: 20px;
     max-width: 90%;
     text-align: center;
 }
-button{
-    font-family: var(--titulo);
-    background-color: var(--violeta);
-    color: var(--roxo)
-    border: 2px solid
 
+button {}
 
+button:hover {
+    background-color: var(--azul-profundo);
+    color: var(--violeta);
+    transition: 0.5s;
+}
+
+.passo {
+    font-size: 24px;
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+img {
+    width: 40%;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px black;
+    font-family var (--titulo);
+    background-color var (--violeta);
+    color var (--roxo) border 5px solid
+}
+
+button:hover {
+    background-color: var(--roxo);
+    transition: 0.5s;
+}
+
+.passo {
+    font-size: 24px;
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+img {
+    width: 40%;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px black;
 }
